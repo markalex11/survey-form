@@ -1,0 +1,75 @@
+<DOCTYPE html>
+    <html lang="en">
+    
+      <head>
+        <meta charset="UTF-8">
+        <title>Survey form</title>
+        <link rel="stylesheet" href="css/styles.css" />
+      </head>
+    
+      <body>
+    
+        <h1 id="title">Rock music survey form</h1>
+        <p id="description"> Leave this page if you don't like rock music </p>
+    
+        <form id="survey-form">
+    
+          <label  id="name-label">Name</label>
+          <input class="fullin" id="name" type="text" placeholder="Enter your Name" required />
+    
+          <label id="email-label">Email</label>
+          <input class="fullin" id="email" type="email" placeholder="Enter your Email" required />
+          
+          <label  id="number-label">Age</label>
+          <input class="fullin" id="number" type="number" min="14" max="120" placeholder="Age" />
+    
+          <label for="dropdown">Who introduced you to rock music?</label>
+          <select  id="dropdown" name="dropdown" >
+            <option value="">(select one)</option>
+            <option value="1">Friends</option>
+            <option value="2">Family</option>
+            <option value="3">Internet</option>
+            <option value="4">Radio</option>
+          </select>
+    
+          <label>What your favorite style of rock music?</label>
+          <label class="inlinel" for="what-kind"><input type="radio" name="what-kind"  value="ar" checked />  Alternative rock</label>
+          <label class="inlinel" for="what-kind"><input type="radio" name="what-kind"  value="hm" />  Heavy metal</label>
+          <label class="inlinel" for="what-kind"><input type="radio" name="what-kind"  value="rr"/>  Rock and roll</label>
+          <label class="inlinel" for="what-kind"><input type="radio" name="what-kind"  value="ir"/>  Indie rock</label>
+          <label class="inlinel" for="what-kind"><input type="radio" name="what-kind"  value="other" />  Other..</label>
+    
+          <label>When you listen to rock music?</label>
+          <label class="inlinel" for="when-listen"><input type="radio" name="when-listen"  value="sp" checked />  When i do sports</label>
+          <label class="inlinel" for="when-listen"><input type="radio" name="when-listen"  value="aw"/>  At work(school)</label>
+          <label class="inlinel" for="when-listen"><input type="radio" name="when-listen"  value="ah"/>  At home</label>
+          <label class="inlinel" for="when-listen"><input type="radio" name="when-listen"  value="always"/>  Always</label>
+    
+          <label>What rock bands do you know?</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="acdc" />  AC/DC</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="rms" />  Rammstein</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="mt" />  Mettalica</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="ds" />  Disturbed</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="skl" />  Skillet</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="lp" />  Linkin Park</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="scr" />  Scorpions</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="aer" />  Aerosmith</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="nickl" />  Nickelback</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="grd" />  Green Day</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="prm" />  Paramore</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="slp" />  Slipknot</label>
+          <label class="inlinel" for="what-bands"><input type="checkbox" name="what-bands"  value="nrv" />  Nirvana</label>
+    
+          <label>Additional Information</label>
+          <textarea name="bio" rows="5" cols="30" placeholder="Enter your information..."></textarea>
+    
+          <input id="submit" type="submit" value="Submit" />
+    
+        </form>
+    
+        <footer>
+          <p>Your personal information is protected</p>
+          <p> Created by Mark22 </p>
+        </footer>
+      </body>
+    </html>
